@@ -20,3 +20,13 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 ![image](https://github.com/alexyin2/Decision-Tree/blob/master/Image/EntropyInformation.png)
 5. When the probability of the targets are 0.5 and 0.5, the entropy is 1, which means that its totally uncertain and there's no help for us to predict or guess the target.
 6. As one of the targets probability gets lower, the entropy also gets lower, which means that the uncertainty has reduced.
+
+## Next we will introduce different ways to split our data
+***
+### ID3(Interactive Dichotomiser 3)
+1. First, it sets all the attributes as S = {a(1), a(2), ...a(D)).
+2. Next, It will find the attributes that best splits data based on having maximum information gain.
+3. Notice that is quite important that when using ID3, **it can split more than once at a time**, which means that each node can have for more than two children.
+4. Also remember that this algorithm will remove the attribute after we've used to split the data. In other words, **each attributes will only be used for one time**.
+
+###
