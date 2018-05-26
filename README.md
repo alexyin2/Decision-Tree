@@ -1,9 +1,9 @@
 # Decision-Tree
 This repository helps me to understand the background mathematics of how Decision Tree works.  
 The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer/machine_learning_examples)  
-
-## We will start to introduce some basic theory behind Decision-Tree
 ***
+## We will start to introduce some basic theory behind Decision-Tree
+
 ### Orthogonal:
 1. In Decision Tree, it works by cutting the space piece by piece.
 2. For example, if we have x1 = height and x2 = weight, our goal is to classify if the person is male or female.
@@ -21,8 +21,9 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 5. When the probability of the targets are 0.5 and 0.5, the entropy is 1, which means that its totally uncertain and there's no help for us to predict or guess the target.
 6. As one of the targets probability gets lower, the entropy also gets lower, which means that the uncertainty has reduced.
 
-## Next we will introduce different ways to split our data
 ***
+## Next we will introduce different ways to split our data
+
 ### ID3(Interactive Dichotomiser 3)
 1. First, it sets all the attributes as S = {a(1), a(2), ...a(D)).
 2. Next, It will find the attributes that best splits data based on having maximum information gain.
