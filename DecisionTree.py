@@ -4,9 +4,10 @@ from datetime import datetime
 import pandas as pd
 
 # First we will define get_data, get_dount and get_xor, which are three different data types for us to imply on
+# The data we've used in get_data can be found at Kaggle
 def get_data(limit=None):
     print("Reading in and transforming data...")
-    df = pd.read_csv('/Users/alex/Desktop/DeepLearningPrerequisites/KNN/Datasets/train.csv')
+    df = pd.read_csv('train.csv')
     data = df.as_matrix()
     np.random.shuffle(data)  # Randomly reindex the rows and sort it
     X = data[:, 1:] / 255.0  # The rango of data is from 0 to 255
