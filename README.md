@@ -17,3 +17,6 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 2. This definition is used in decision tree when we have to split the data by categorical variables or numerical variables.
 3. Lets suppose our target is 0 or 1, and we have numerous variables, the algorithm will first split the data depend on the variables that maximizes reduction in uncertainty.
 4. We can also use a image to show that how the formula looks like when we only have two targets.
+![image](https://github.com/alexyin2/Decision-Tree/blob/master/Image/EntropyInformation.png)
+5. When the probability of the targets are 0.5 and 0.5, the entropy is 1, which means that its totally uncertain and there's no help for us to predict or guess the target.
+6. As one of the targets probability gets lower, the entropy also gets lower, which means that the uncertainty has reduced.
