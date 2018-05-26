@@ -37,7 +37,7 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 4. Second, This algorithm __*restricts that each tree node can only have 0(leaf) or 2 children*__.
 ***
 
-## Detail steps of running Algorithms
+## Detail steps of running the algorithms
 1. First, sort X's for current column in order, sort Y in the corresponding way.
 2. Second, find all the boundaries points where Y changes from one value to another.
 3. Third, calculate information gain when spliting at each boundaries.
