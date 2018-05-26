@@ -34,5 +34,5 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 1. The main idea of this algorithm is the same as above, which tries to split data based on having maximum information gain.
 2. But there are some parts different from ID3
 3. First, this algoirthm __*does not require that an attribute can only be split once*__, which makes it performs better on donut data(data that are have different label in each circle).
-4. Second, This algorithm restricts that each tree node can only have 0(leaf) or 2 children.
+4. Second, This algorithm __*restricts that each tree node can only have 0(leaf) or 2 children*__.
 
