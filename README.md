@@ -27,13 +27,13 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 ### ID3(Interactive Dichotomiser 3)
 1. First, it sets all the attributes as S = {a(1), a(2), ...a(D)).
 2. Next, It will find the attributes that best splits data based on having maximum information gain.
-3. Notice that is quite important that when using ID3, _**it can split more than once at a time**_, which means that each node can have for more than two children.
+3. Notice that is quite important that when using ID3, _**it can split more than once at a time**_, which means that each node can have more than two children.
 4. Also remember that this algorithm will remove the attribute after we've used to split the data. In other words, _**each attributes will only be used for one time**_.
 
 ###
 1. The main idea of this algorithm is the same as above, which tries to split data based on having maximum information gain.
-2. But there are some parts different from ID3
-3. First, this algoirthm __*does not require that an attribute can only be split once*__, which makes it performs better on donut data(data that are have different label in each circle).
+2. But there are some parts different from ID3.
+3. First, this algoirthm __*does not require that an attribute can only be split once*__, which makes it performs better on donut data(data that have different labels in each circle).
 4. Second, This algorithm __*restricts that each tree node can only have 0(leaf) or 2 children*__.
 ***
 
