@@ -35,4 +35,10 @@ The codeing part is based on [lazy_programmer](https://github.com/lazyprogrammer
 2. But there are some parts different from ID3
 3. First, this algoirthm __*does not require that an attribute can only be split once*__, which makes it performs better on donut data(data that are have different label in each circle).
 4. Second, This algorithm __*restricts that each tree node can only have 0(leaf) or 2 children*__.
+***
 
+## Detail steps of running Algorithms
+1. First, sort X's for current column in order, sort Y in the corresponding way.
+2. Second, find all the boundaries points where Y changes from one value to another.
+3. Third, calculate information gain when spliting at each boundaries.
+4. Last Keep the split which gives the maximum of information gain.
